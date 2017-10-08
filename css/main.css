@@ -384,3 +384,11 @@ footer a {
         margin-left: 7%;
     }
 }
+
+/*** MEDIA QUERY 1600px ***/
+@media (min-width: 1600px) {
+    footer {
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+}
