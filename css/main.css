@@ -319,3 +319,11 @@ footer a {
         height: 250px;
     }
 }
+
+/*** MEDIA QUERY 800PX ***/
+@media (min-width: 800px) {
+    footer {
+        padding-top: 8%;
+        padding-bottom: 8%;
+    }
+}
