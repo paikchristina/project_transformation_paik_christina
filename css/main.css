@@ -126,9 +126,8 @@ nav a:hover, nav .current_page_item a {
 
 #page {
     width: 100%;
-    max-width: 360px;
     margin: 0 auto;
-    padding: 30px 0px;
+    padding: 10% 0;
     display: flex;
     flex-direction: column-reverse;
 }
@@ -140,19 +139,18 @@ nav a:hover, nav .current_page_item a {
 /* Content */
 
 #content {
-    padding: 0px 0px 0px 0px;
+    padding: 0;
 }
 
 .post {
     padding-left: 10%;
     padding-right: 10%;
     overflow: hidden;
-    margin-bottom: 40px;
+    margin-bottom: 5%;
     border-bottom: 1px solid #E7EBED;
 }
 
 .post .title {
-    padding: 7px 0px 0px 0px;
     letter-spacing: -1px;
 }
 
@@ -163,38 +161,30 @@ nav a:hover, nav .current_page_item a {
 }
 
 .post .meta {
-    margin-bottom: 30px;
-    padding: 10px 0px 0px 0px;
+    padding-top: 5%;
     text-align: left;
     font-family: 'Abel', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 300;
 }
 
-.post .meta .date {
-    float: left;
-}
-
-.post .meta .posted {
-    float: right;
-}
-
 .post .entry {
-    padding: 0px 0px 40px 0px;
+    padding-bottom: 10%;
     text-align: justify;
 }
 
 .links {
-    padding-top: 20px;
-    margin-bottom: 30px;
+    padding-top: 10%;
+    margin-bottom: 10%;
+    display: flex;
+    flex-direction: row;
 }
 
 .more {
     display: block;
-    float: left;
-    width: 88px;
-    padding: 5px 5px;
-    margin-right: 10px;
+    flex: 1;
+    padding: 2%;
+    margin-right: 5%;
     background: #222222;
     color: #FFFFFF;
     text-align: center;
@@ -202,10 +192,9 @@ nav a:hover, nav .current_page_item a {
 }
 
 .comments {
+    flex: 1;
     display: block;
-    float: left;
-    width: 88px;
-    padding: 5px 5px;
+    padding: 2%;
     background: #222222;
     color: #FFFFFF;
     text-align: center;
@@ -231,7 +220,7 @@ nav a:hover, nav .current_page_item a {
 
 #sidebar li ul {
     margin: 0px 0px;
-    padding-bottom: 30px;
+    padding-bottom: 20%;
 }
 
 #sidebar li li {
