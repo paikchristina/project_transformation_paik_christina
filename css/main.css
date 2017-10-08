@@ -327,3 +327,19 @@ footer a {
         padding-bottom: 8%;
     }
 }
+
+/*** MEDIA QUERY 950PX ***/
+@media (min-width: 950px) {
+    nav a {
+        font-size: 1.3rem;
+    }
+
+    .title {
+        margin-top: 5%;
+    }
+
+    footer {
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+}
