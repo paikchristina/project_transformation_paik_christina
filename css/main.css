@@ -373,3 +373,14 @@ footer a {
         max-width: 30%;
     }
 }
+
+/*** MEDIA QUERY 1400px ***/
+@media (min-width: 1400px) {
+    nav ul {
+        padding-top: 2%;
+    }
+
+    #sidebar {
+        margin-left: 7%;
+    }
+}
