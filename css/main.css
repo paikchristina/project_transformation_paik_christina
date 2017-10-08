@@ -188,20 +188,27 @@ nav a:hover, nav .current_page_item a {
 /* Page */
 
 #page {
-    width: 1000px;
+    width: 100%;
+    max-width: 360px;
     margin: 0 auto;
     padding: 30px 0px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.flexflex {
+    flex: 1;
 }
 
 /* Content */
 
 #content {
-    float: right;
-    width: 660px;
     padding: 0px 0px 0px 0px;
 }
 
 .post {
+    padding-left: 10%;
+    padding-right: 10%;
     overflow: hidden;
     margin-bottom: 40px;
     border-bottom: 1px solid #E7EBED;
@@ -271,9 +278,8 @@ nav a:hover, nav .current_page_item a {
 /* Sidebar */
 
 #sidebar {
-    float: left;
     width: 270px;
-    margin: 0px;
+    margin: 0 auto;
     padding: 30px 0px 0px 0px;
 }
 
