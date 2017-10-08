@@ -202,6 +202,10 @@ nav a:hover, nav .current_page_item a {
     text-decoration: none;
 }
 
+.bolded {
+    font-weight: bold;
+}
+
 /* Sidebar */
 
 #sidebar {
@@ -341,5 +345,28 @@ footer a {
     footer {
         padding-top: 5%;
         padding-bottom: 5%;
+    }
+}
+
+/*** MEDIA QUERY 1250px ***/
+@media (min-width: 1250px) {
+    #logo {
+        margin-top: 8%;
+    }
+
+    #page {
+        flex-direction: row;
+    }
+
+    #sidebar {
+        max-width: 25%;
+    }
+
+    .more {
+        max-width: 30%;
+    }
+
+    .comments {
+        max-width: 30%;
     }
 }
