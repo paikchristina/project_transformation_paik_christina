@@ -355,11 +355,14 @@ footer a {
     }
 
     #page {
-        flex-direction: row;
+        flex-direction: row-reverse;
+        padding-top: 5%;
     }
 
     #sidebar {
         max-width: 25%;
+        margin-left: 5%;
+        margin-top: 4%;
     }
 
     .more {
