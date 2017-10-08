@@ -392,3 +392,14 @@ footer a {
         padding-bottom: 2%;
     }
 }
+
+/*** MEDIA QUERY 1900px ***/
+@media (min-width: 1900px) {
+    .post {
+        max-width: 70%;
+    }
+
+    #sidebar {
+        margin-left: 10%;
+    }
+}
